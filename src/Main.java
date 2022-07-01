@@ -8,7 +8,8 @@ public class Main {
 //        a4.InnerClasses.aMain.main();
 //        a5.Interfaces.aMain.main();
 //        a6.Scanner.aMain.main();
-        a7.EnumSwitch.aMain.main();
+//        a7.EnumSwitch.aMain.main();
+        a8.DateTimeFormating.aMain.main();
     }
 
 }
