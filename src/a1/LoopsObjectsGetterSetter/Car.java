@@ -27,4 +27,12 @@ public class Car {
         this.isLpg = isLpg;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "hp=" + hp +
+                ", name='" + name + '\'' +
+                ", isLpg=" + isLpg +
+                '}';
+    }
 }

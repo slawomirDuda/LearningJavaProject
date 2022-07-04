@@ -9,7 +9,16 @@ public class Main {
 //        a5.Interfaces.aMain.main();
 //        a6.Scanner.aMain.main();
 //        a7.EnumSwitch.aMain.main();
-        a8.DateTimeFormating.aMain.main();
+//        a8.DateTimeFormating.aMain.main();
+//        a9.Collections.ArrayListExample.main();
+//        a9.Collections.LinkedListExample.main();
+//        a9.Collections.HashMapExample.main();
+//        a9.Collections.HashSetExample.main();
+//        a9.Collections.IteratorExample.main();
+//        a10.WrapperClasses.aMain.main();
+//        a11.Exceptions.TryCatchExample.main();
+        a11.Exceptions.ThrowExample.main();
+
     }
 
 }

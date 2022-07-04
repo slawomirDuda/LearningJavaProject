@@ -6,12 +6,16 @@ public class aMain {
 
     public static void main() {
         Car myCar = new Car(750, "Honda", false);
+        System.out.println(myCar);
+
+
         Car myCar2 = new Car();
         myCar2.hp = 7580;
         myCar2.isLpg = true;
         myCar2.name = "zapierdalacz2";
 
         Person person1 = new Person("Slawek","Duda",29,true);
+        System.out.println(person1);
 
         Person person2 = new Person();
         person2.name = "Slawek";
@@ -54,6 +58,8 @@ public class aMain {
                 System.out.println("IDZ POCWICZYC");
             }
         }
+
+
     }
 
 }
