@@ -11,6 +11,8 @@ public class aMain {
         OuterClass.InnerClass2 myInner = myOuter.new InnerClass2();
         System.out.println(myInner.y4);
 
+        String s = "abc";
+
         OuterClass.InnerClass myInner2 = new OuterClass.InnerClass();
         System.out.println(myInner2.y2);
 

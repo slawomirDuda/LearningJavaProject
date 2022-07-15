@@ -1,3 +1,5 @@
+import a13.FileHandling.ReadFileAndDeleteFile;
+
 public class Main {
     public static void main(String[] args) {
 //        System.out.println(args[0]);
@@ -17,8 +19,11 @@ public class Main {
 //        a9.Collections.IteratorExample.main();
 //        a10.WrapperClasses.aMain.main();
 //        a11.Exceptions.TryCatchExample.main();
-        a11.Exceptions.ThrowExample.main();
-
+//        a11.Exceptions.ThrowExample.main();
+//        a12.RegularExpression_Regex.aMain.main();
+//        a13.FileHandling.CreateFile.main();
+//        a13.FileHandling.WriteToFile.main();
+        a13.FileHandling.ReadFileAndDeleteFile.main();
     }
 
 }
