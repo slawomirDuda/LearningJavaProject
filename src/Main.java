@@ -23,7 +23,8 @@ public class Main {
 //        a12.RegularExpression_Regex.aMain.main();
 //        a13.FileHandling.CreateFile.main();
 //        a13.FileHandling.WriteToFile.main();
-        a13.FileHandling.ReadFileAndDeleteFile.main();
+//        a13.FileHandling.ReadFileAndDeleteFile.main();
+        a14.Algorytm1.aMain.main();
     }
 
 }
