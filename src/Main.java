@@ -24,7 +24,8 @@ public class Main {
 //        a13.FileHandling.CreateFile.main();
 //        a13.FileHandling.WriteToFile.main();
 //        a13.FileHandling.ReadFileAndDeleteFile.main();
-        a14.Algorytm1.aMain.main();
+//        a14.Algorytm1.aMain.main();
+        a14.Algorytm1.bMain.main();
     }
 
 }
