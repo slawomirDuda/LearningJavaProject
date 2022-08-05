@@ -26,7 +26,9 @@ public class Main {
 //        a13.FileHandling.ReadFileAndDeleteFile.main();
 //        a14.Algorytm1.aMain.main();
 //        a14.Algorytm1.bMain.main();
-        a14.Algorytm1.cMain.main();
+//        a14.Algorytm1.cMain.main();
+        a14.Algorytm1.dMain.main();
+        
     }
 
 }
