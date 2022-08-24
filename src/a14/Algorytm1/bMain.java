@@ -4,7 +4,7 @@ package a14.Algorytm1;
 
 public class bMain {
     public static void main(){
-        String myString = "ABBCCC  D    DDDEEEEEFGGHIIJKKKL";    //A1    B2    C3
+        String myString = "ABBCCCDDDDEEEEEFGGHIIJKKKL";    //A1    B2    C3
 
         int counter = 0;               // 1
         Character currentChar = null; // D
