@@ -31,7 +31,10 @@ public class Main {
 //        a14.Algorytm1.eMain.main();
 //        a14.Algorytm1.fMain.main();
 //        a14.Algorytm1.gMain.main();
-        a14.Algorytm1.hMain.main();
+//        a14.Algorytm1.hMain.main();
+//        a14.Algorytm1.iMain.main();
+//        a14.Algorytm1.jMain.main();
+        a14.Algorytm1.kMain.main();
 
     }
 
