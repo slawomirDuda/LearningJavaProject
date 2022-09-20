@@ -6,32 +6,64 @@ import java.util.Arrays;
 public class mMain {
     public static void main(){
 
-        int[] ciag = {1,2,3,5};
+        int[] ciagMain = {1,1,2,2,2,3,3,4,4,4,5,5,8,8,8};
 
-        int rozmiarParzysty= (int)Math.floor(ciag.length / 2f);
-        int rozmiarNieParzysty= (int)Math.ceil(ciag.length / 2f);
+        int rozmiar1= ciagMain.length;
+        int rozmiar2= ciagMain.length;
 
-        int[] ciagParzysty = new int[rozmiarParzysty];
-        int[] ciagNieParzysty = new int[rozmiarNieParzysty];
+        int[] ciag1 = new int[rozmiar1];
+        int[] ciag2 = new int[rozmiar2];
 
-        int counterParzysty = 0;
-        int counterNieparzysty = 0;
+        int[] ciagFinal = new int[ciagMain.length];
 
-        for (int i=0 ; i<ciag.length ; i++){
+        System.out.println(ciagFinal[5]);
 
-            if (i % 2 == 0){
-               ciagNieParzysty[counterNieparzysty++] = ciag[i];
+        int counter1 = 0;
+        int counter2 = 0;
+        int counterFinal = 0;
+
+        boolean isCiag1 = true;
+
+        for (int i=0 ; i<ciagMain.length ;){
+
+            if (isCiag1){
+               ciag1[counter1++] = ciagMain[i++];
+               ciag1[counter1++] = ciagMain[i++];
             }else {
-                ciagParzysty[counterParzysty++] = ciag[i];
+                ciag2[counter2++] = ciagMain[i++];
+                ciag2[counter2++] = ciagMain[i++];
+                ciag2[counter2++] = ciagMain[i++];
             }
+            isCiag1 = !isCiag1;
 
         }
 
-        for (int loopInt : ciagParzysty){
-            System.out.print(loopInt + " ");
+//        ciag1[0] = ciagMain[0];
+//        ciag1[1] = ciagMain[1];
+//
+//        ciag2[0] = ciagMain[2];
+//        ciag2[1] = ciagMain[3];
+//
+//        ciag1[2] = ciagMain[4];
+//        ciag1[3] = ciagMain[5];
+//
+//        ciag2[2] = ciagMain[6];
+//        ciag2[3] = ciagMain[7];
+
+        for (int loopInt : ciag1){
+            if (loopInt != 0){
+                ciagFinal[counterFinal++] = loopInt;
+            }
         }
-        for (int loopInt : ciagNieParzysty){
-            System.out.print(loopInt + " ");
+
+        for (int loopInt : ciag2){
+            if (loopInt != 0){
+                ciagFinal[counterFinal++] = loopInt;
+            }
+        }
+
+        for (int elementCiagu : ciagFinal){
+            System.out.print(elementCiagu + " ");
         }
 
 
