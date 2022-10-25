@@ -18,9 +18,7 @@ public class cMain {
         //myNumbers.length = 5
 
         for (
-                int i = myNumbers.length - 1, j = 0;
-                i >=0 ;
-                i--, j++
+                int i = myNumbers.length - 1, j = 0;  i >=0 ;  i--, j++
         ) {
             myNumbersInverted[j] = myNumbers[i];
 //         1.   myNumbersInverted[0] = myNumbers[4];
