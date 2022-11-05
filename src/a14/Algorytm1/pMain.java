@@ -6,7 +6,7 @@ public class pMain {
 
     public static void main(){
 
-        int level = 15;                 //RZAD = nasze "N"
+        int level = 12;                 //RZAD = nasze "N"
         size = level * 2;
         char[][] wiatrak = new char[size][size];
 
