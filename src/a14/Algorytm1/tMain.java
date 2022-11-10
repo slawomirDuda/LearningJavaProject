@@ -3,9 +3,9 @@ package a14.Algorytm1;
 public class tMain {
     public static void main(){
 
-        int[] zbior = {1,2,3,4,5,6};
+        int[] zbior = {1,2,3,4,5,6,7,8,9,10,11,12,13};
         int[] zbiorPrzesuniety = new int[zbior.length];
-        int przesuniecie = -4;
+        int przesuniecie = -12;
 
         System.out.println("PRZED PRZESUNIECIEM:");
         for (int i : zbior){
