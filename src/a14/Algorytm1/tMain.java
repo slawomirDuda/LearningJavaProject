@@ -5,7 +5,7 @@ public class tMain {
 
         int[] zbior = {1,2,3,4,5,6,7,8,9,10,11,12,13};
         int[] zbiorPrzesuniety = new int[zbior.length];
-        int przesuniecie = -12;
+        int przesuniecie = 3;
 
         System.out.println("PRZED PRZESUNIECIEM:");
         for (int i : zbior){

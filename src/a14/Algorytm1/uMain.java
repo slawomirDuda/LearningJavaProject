@@ -30,14 +30,14 @@ public class uMain {
         if(sumaKrokowPP>0){
             kierunekPP = 0;
         }else {
-            sumaKrokowPP = -sumaKrokowPP;
+//            sumaKrokowPP = -sumaKrokowPP;
             kierunekPP = 1;
         }
 
         if(sumaKrokowWZ>0){
             kierunekWZ = 3;
         }else {
-            sumaKrokowWZ= -sumaKrokowWZ;
+//            sumaKrokowWZ= -sumaKrokowWZ;
             kierunekWZ = 2;
         }
 
@@ -58,9 +58,9 @@ public class uMain {
             System.out.println("STUDNIA");
         }else{
             System.out.print(kierunekStringPP + "- ");
-            System.out.println(sumaKrokowPP);
+            System.out.println(Math.abs(sumaKrokowPP));
             System.out.print(kierunekStringWZ + "- ");
-            System.out.println(sumaKrokowWZ);
+            System.out.println(Math.abs(sumaKrokowWZ));
         }
 
 
