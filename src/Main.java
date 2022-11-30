@@ -1,5 +1,3 @@
-import a13.FileHandling.ReadFileAndDeleteFile;
-
 public class Main {
     public static void main(String[] args) {
 //        System.out.println(args[0]);
@@ -45,8 +43,8 @@ public class Main {
 //        a14.Algorytm1.sMain.main();
 //        a14.Algorytm1.tMain.main();
 //        a14.Algorytm1.uMain.main();
-        a14.Algorytm1.vMain.main();
-//        a14.Algorytm1.wMain.main();
+//        a14.Algorytm1.vMain.main();
+        a14.Algorytm1.wMain.main();
 //        a14.Algorytm1.xMain.main();
 
     }
