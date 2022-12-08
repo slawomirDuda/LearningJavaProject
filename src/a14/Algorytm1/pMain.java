@@ -1,9 +1,6 @@
 package a14.Algorytm1;
-
 public class pMain {
     static int size;
-
-
     public static void main(){
 
         int level = 10;                 //RZAD = nasze "N"
@@ -15,6 +12,7 @@ public class pMain {
                 wiatrak[i][j] = '?';
             }
         }
+
         for(int i=0 ; i<level-1 ; i++){
             int firstDot = i;
             int first_X = level - i;
@@ -43,6 +41,7 @@ public class pMain {
             int secondDot = level-2-i;
             wypelnijWierszDol(first_X, firstDot, second_X, secondDot, wiatrak[level+1+i]);
         }
+
         for (char[] wiersz : wiatrak){
             for (char element : wiersz){
                 System.out.print(element);
@@ -50,7 +49,6 @@ public class pMain {
             System.out.println();
         }
     }
-
     private static char[] wypelnijWierszGora(int firstDot, int first_X, int secondDot, int second_X, char[] wiersz){
         for(int j = 0; j < size ; j++){
             if(firstDot > 0){
@@ -71,7 +69,6 @@ public class pMain {
         }
         return wiersz;
     }
-
     private static char[] wypelnijWierszDol(int first_X, int firstDot, int second_X, int secondDot, char[] wiersz){
         for(int j = 0; j < size ; j++){
             if(first_X > 0){
