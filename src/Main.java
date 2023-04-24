@@ -47,7 +47,9 @@ public class Main {
 //        a14.Algorytm1.wMain.main();
 //        a14.Algorytm1.wMainDynamicTry.main();
 //        a14.Algorytm1.xMain.main();
-        a14.Algorytm1.zMain.main();
+//        a14.Algorytm1.zMain.main();
+//        a15.Algorytm2powtorka.aMain.main();
+        a15.Algorytm2powtorka.bMain.main();
 
     }
 
